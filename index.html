@@ -3,19 +3,22 @@
 <head>
   <meta charset="utf-8">
   <link rel='stylesheet' type='text/css' href="css/main.css">
-  <script src='js/main.js'> </script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <title>toggle demo</title>
+  <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+  <script type = "text/javascript" src="js/main.js"></script>
+  <title>hide demo</title>
 </head>
 <body>
  
-<button>Toggle 'em</button>
-<p>Hiya</p>
-<p>Such interesting text, eh?</p>
- <script>
-$("button").click(function() {
-    $("p").toggle("slow");
-  });
-</script>
+<p>Hello</p>
+<a href="#">Click to hide me too</a>
+<p>Here is another paragraph</p>
+ 
+<!-- <script>
+$( "p" ).hide();
+$( "a" ).click(function( event ) {
+  event.preventDefault();
+  $( this ).hide();
+});
+</script> -->
 </body>
 </html>

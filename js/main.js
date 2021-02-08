@@ -1,3 +1,8 @@
-// $("button").click(function() {
-//     $("p").toggle("slow");
-//   });
+$(document).ready(function(){
+    
+$( "p" ).hide();
+$( "a" ).click(function( event ) {
+  event.preventDefault();
+  $( this ).hide();
+});
+});
